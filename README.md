@@ -17,9 +17,7 @@ with something familiar it will let to a neural connection in your brain. This i
 reason that stays behind this method of putting a new word in a sentence that
 expresses its definition.
 
-![neural_connection](https://dana.org/app/uploads/2023/09/qa-what-happens-synapse.jpeg)
-
-<image src="https://dana.org/app/uploads/2023/09/qa-what-happens-synapse.jpeg" width=200 height=300>
+<image src="https://dana.org/app/uploads/2023/09/qa-what-happens-synapse.jpeg" width=400 height=250>
 
 
 ## Knowledge stack
