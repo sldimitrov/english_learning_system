@@ -22,7 +22,7 @@ my own learning process and there was nothing more boring in it than writing eve
 ![Screenshot 2024-02-26 233401](https://github.com/sldimitrov/english_learning_system/assets/135168991/007c2b18-a556-45bf-bcb4-fcd4fa260b09)
 
 
-* The first thing you want to do is to gather some words which meaning is unknown for you. From then on you should open the file - 'list_of_words.txt' ![dir_photo](https://github.com/sldimitrov/english_learning_system/assets/135168991/fb83d993-bf4a-40ae-8f9e-78838993d5f4)
+* Having a local copy of the project you should gather some words, which meaning is unknown for you. From then on you should open the file - 'list_of_words.txt' ![dir_photo](https://github.com/sldimitrov/english_learning_system/assets/135168991/fb83d993-bf4a-40ae-8f9e-78838993d5f4)
 Current file location [here](https://github.com/sldimitrov/english_learning_system/blob/main/learning_system_project/list_of_words.txt)
 ---
 * After you located this text file. Open [Cambridge Dictionary](https://dictionary.cambridge.org/#google_vignette) and search for the definition of every word you want to.
