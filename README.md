@@ -18,7 +18,7 @@ with something familiar it will let to a neural connection in your brain. This i
 reason that stays behind the main method we use in this Learning System. Putting a new word
 in a sentence that exposes the definition of the current word. After that connection happens
 it become much more easier. Next time you hear or read this word your brain you give you the
-whole sentence and you with that the definition will pops up.
+whole sentence and you with that the definition will pops like a popcorn in front of your frozen face.
 
 
 
