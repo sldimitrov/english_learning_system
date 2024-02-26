@@ -1,21 +1,18 @@
 # English Learning System
 
-## Starting Point - Essentials
+## Essentials
 #### Mission:
 * This project is not something random. I have developed it in order to help others in learning English.When I first started (02/11/23) my idea was to create something that people will be happy to use, program that will automate some boring process in our lifestyle.
 
 #### Where the idea came from?
 * An old Chinese saying goes - "*If you want to help others - help yourself first*". From then on I have tought about
-my own learning process and there was nothing more boring than writing every new word from my English classes x30 times.
+my own learning process and there was nothing more boring in it than writing every new word from my English classes x30 times.
 #### The idea itself:
-* Because of that I came up with the idea of creating program that evolved into whole system 
-that enables you to learn English words in very innovative way.
-###### Check the [code implementation](https://github.com/sldimitrov/english_learning_system/tree/main/learning_system_project)
+* After all, I came up with the idea of creating program that enables you to learn English words in very innovative way.
+###### Check how to use it [here](https://github.com/sldimitrov/english_learning_system/blob/main/README.md#how-to-use-the-program)
 #### The innovative way:
 * Writing every new word in a sentence which exposes its definition is our method and it is much better!
 ###### Read more information about it [here](https://github.com/sldimitrov/english_learning_system/blob/main/README.md#why-writing-whole-sentences-with-the-new-words-instead-of-just-them)
-#### It is all about you now...
-* Dive deeper into the program itself and find the wonders it makes yourself!
 
 ## How to use the program?
 1. Input the words or phrases into a txt file every one on a new line.
@@ -28,14 +25,14 @@ that enables you to learn English words in very innovative way.
 
 * this is me playing the guitar
 
-## Why writing whole sentences with the new words instead of just them?
-<img align="right" width=240px height=180px alt="side_sticker" src="https://dana.org/app/uploads/2023/09/qa-what-happens-synapse.jpeg"/>
+## Why writing new words into sentences rather than just the words?
+<img align="right" width=240px height=200px alt="side_sticker" src="https://dana.org/app/uploads/2023/09/qa-what-happens-synapse.jpeg"/>
 It is proven by scientists that if you connect something that is unusual and new for you
-with something familiar it will let to a neural connection in your brain. This is the
-reason that stays behind the main method we use in this Learning System. Putting a new word
-in a sentence that exposes the definition of the current word. After that connection happens
-it become much more easier. Next time you hear or read this word your brain you give you the
-whole sentence and you with that the definition will pops like a popcorn in front of your frozen face.
+with something familiar it will let to a neural connection in your brain. This is the scientific explanation
+that stays behind the main method we use in this Learning System. Put any new word
+in a sentence that exposes the definition of the unknown word. After the connection happens
+it become much more easier for you to memorize its meaning. Next time you hear or read this word your brain will give you the
+whole sentence and with that the definition will appear in your mind.
 
 
 ## Knowledge stack
