@@ -1,0 +1,3 @@
+thresholds  -  the level or point which something starts to happen
+broaden  -  to become wider, or to cause something to become wider
+entirety  -  all of a something, from beginning to end

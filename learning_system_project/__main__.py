@@ -112,6 +112,7 @@ def reg_or_log_user():
                         break
 
             elif choice == "n" or choice == "no":
+                print("\nProgram ends here...")
                 raise SystemExit
 
         else:
@@ -379,6 +380,7 @@ def login_user() -> bool:
         # secrets
         # services
     else:  # if there is no match
+        print("There is no user with such credentials in the database.")
         return False
 
 
@@ -391,7 +393,7 @@ def text_to_speech():
     tts = TextToSpeech('HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Speech\\Voices\\Tokens\\TTS_MS_EN-US_DAVID_11.0',
                        200, 1.0)
     # tts.list_available_voices()
-    f = open('txt_files/sentences_list.txt', 'r')
+    f = open('text_files/sentences_list.txt', 'r')
     data = f.read()
     if data:
         counter = 1
@@ -419,7 +421,7 @@ def write_sentences() -> bool:
     lines = []
 
     # Read the data from the text file and append it into a list
-    data = open('txt_files/list_of_words.txt', 'r')
+    data = open('text_files/list_of_words.txt', 'r')
     for d in data:
         if '\n' in d:
             d = d.replace('\n', '')
@@ -445,11 +447,11 @@ def write_sentences() -> bool:
                 words_dictionary[word] = definition
 
                 # Remove the written words from the (words text file)
-                f = open('txt_files/list_of_words.txt', 'r')
+                f = open('text_files/list_of_words.txt', 'r')
                 text = f.read()
                 text = text.replace(line, '')
                 f.close()
-                f = open('txt_files/list_of_words.txt', 'w')
+                f = open('text_files/list_of_words.txt', 'w')
                 f.write(text)
                 f.close()
                 print()
@@ -457,13 +459,13 @@ def write_sentences() -> bool:
         print('There are not any new words in order to write sentences with them.')
 
     # Save the sentences into a text file
-    file = open('txt_files/sentences_list.txt', 'a')
+    file = open('text_files/sentences_list.txt', 'a')
     file.write('\n')
     file.write('\n'.join(sentences))
     file.close()
 
     # Save the words and their definitions into the dictionary
-    file = open('txt_files/dictionary.txt', 'a')
+    file = open('text_files/dictionary.txt', 'a')
     for key, value in words_dictionary.items():
         file.write(f'{key} - {value}\n')
     file.close()
@@ -476,7 +478,7 @@ def access_dictionary() -> bool:
     True if it does and printing the line if they are alphabetical.
     :return: a boolean value.
     """
-    f = open('txt_files/dictionary.txt', 'r')
+    f = open('text_files/dictionary.txt', 'r')
     data = f.read()
     if data:
         print("\nAll the words that are in the dictionary:")
@@ -497,7 +499,7 @@ def show_new_words() -> bool:
     list is empty.
     :return: a boolean value.
     """
-    f = open('txt_files/list_of_words.txt', 'r')
+    f = open('text_files/list_of_words.txt', 'r')
     data = f.read()
     for _ in data:
         if _.isalpha():
@@ -516,7 +518,7 @@ def test_knowledge():
     its definition.
     :return: The function `test_knowledge` returns a boolean value `True`.
     """
-    data = open('txt_files/dictionary.txt', 'r')   # Open the text file
+    data = open('text_files/dictionary.txt', 'r')   # Open the text file
     lines = []
     # Remove all the new lines from the data in order to save each line in a list
     # Save the data into a list
@@ -681,14 +683,15 @@ def handle_invalid_input(some_input: str):
 
 
 def greet_user():
-    print("Hello, Dear User,\n"
-          "Welcome to my application!\n"
-          "\nOnly learning foreign languages can give you the wings to conquer the world.\n"
-          "Here we offer you a perfect way to master your Vocabulary by Learning new worlds.\n"
-          "Taking this major step can give you many challenges and much more opportunities.\n"
-          "Are you ready to sink in a world fulfilled with many wonders and wise knowledge? ")
-
-    _press_continue = input("\nPress any key if you are...")
+    print("Hello, Dear User!")
+    time.sleep(0.8)
+    print("Welcome to my application!")
+    time.sleep(1.6)
+    print("\nLearning foreign languages can give you the wings to conquer the world.")
+    print("Are you ready to sink in a world fulfilled with many wonders and knowledge? ")
+    time.sleep(5)
+    print("\nLets get into it...")
+    time.sleep(0.6)
 
 
 def end_the_program():
@@ -701,6 +704,11 @@ def end_the_program():
           ' -slavidimitrov54@gmail.com\n'
           '                    Best wishes,\n'
           '                    SD')
+    raise SystemExit
+
+
+def authentication_failure():
+    print("Authentication failed!")
     raise SystemExit
 
 
@@ -749,14 +757,16 @@ def access_learning():
 
 def main():
     """
-    # TODO: (1) System configuration
+    TODO: (4)
+
+        Configuration
     (1) re-structure the configuration of the functions for more readability
         - rename some functions if necessary / write comments and so on
-    # TODO: (1) Authentication
-    (1) add more extensions for the email
-    # TODO: (2) English
-    # (1) record your own voice reading the sentences
-    # (2) test_word_knowledge - 1 minute (quick-game)
+        Authentication
+    (2) add more extensions for the email
+        Learning System
+    (3) record your own voice reading the sentences
+    (4) test_word_knowledge - 1 minute (quick-game)
     """
     greet_user()
 
@@ -765,8 +775,7 @@ def main():
         print("\nSoftware accessed...")
         access_learning()
     else:
-        print("Authentication failed!")
-        raise SystemExit
+        authentication_failure()
 
 
 if __name__ == '__main__':

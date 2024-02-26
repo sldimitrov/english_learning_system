@@ -1,0 +1,4 @@
+# A random account which is already registered in the database;
+  email : marin_marinkov@gmail.com
+  pass = Marinkov123!
+
