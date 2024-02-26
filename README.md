@@ -30,7 +30,7 @@ Current file [location](https://github.com/sldimitrov/english_learning_system/bl
 
 - ERROR WARNINGS:
   * PATTERN : 'word' - 'definition'
-  * DO NOT FORGET TO INPUT SPACES OR TO SEPARATE THE WORD AND THE DEFINITION WITH '-'!!!
+  * DO NOT FORGET TO INPUT SPACES OR TO SEPARATE THE WORD AND THE DEFINITION WITH '-' !
   * THE PROGRAM DOES NOT WORK WITH BULGARIAN DEFINITIONS!!!
 ---
 **Install Project Requirements**
