@@ -14,8 +14,8 @@ I have developed this system in order to help others to learn English.
 ## Why writing whole sentences with the new words instead of just the words?
 It is proven by scientists that if you connect something that is unusual and new for you
 with something familiar it will let to a neural connection in your brain. This is the
-reason that stays behind this method of putting a new word in a sentence that
-expresses its definition.
+reason that stays behind the main method we use in this Learning System. Putting a new word
+in a sentence that exposes the definition of the current word.
 
 <image src="https://dana.org/app/uploads/2023/09/qa-what-happens-synapse.jpeg" width=400 height=250>
 
