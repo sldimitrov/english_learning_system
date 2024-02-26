@@ -9,9 +9,9 @@
 my own learning process and there was nothing more boring than writing every new word from my English classes x30 times.
 #### The idea itself:
 * Because of that I came up with the idea of creating program that evolved into whole system 
-that enables you to learn English words in very innovative way. [code implementation](https://github.com/sldimitrov/english_learning_system/tree/main/learning_system_project)
+that enables you to learn English words in very innovative way. see [code implementation](https://github.com/sldimitrov/english_learning_system/tree/main/learning_system_project)
 #### The innovative way:
-* Writing every new word in a sentence which exposes its definition is our method and it is much better! [more info](https://github.com/sldimitrov/english_learning_system/blob/main/README.md#why-writing-whole-sentences-with-the-new-words-instead-of-just-them)
+* Writing every new word in a sentence which exposes its definition is our method and it is much better! read [more information](https://github.com/sldimitrov/english_learning_system/blob/main/README.md#why-writing-whole-sentences-with-the-new-words-instead-of-just-them)
 #### It is all about you now...
 * Dive deeper into the program itself and find the wonders it makes yourself!
 
