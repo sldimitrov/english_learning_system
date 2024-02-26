@@ -86,7 +86,7 @@ This part of the project is dealing with some `super methods` like ''__name__''.
 
 ## *V.* Postscript
 Enourmous recognition is what my classmate and friend Zeyneb deserves. He was the girl that gave me the inspiration
-of thinking outside the box and write my new words into simple and easy-understandable sentences. In fact this was first light of the fire that this project reproduce in my hearth at current date. So... thank you very, very much Zeyneb!
+of thinking outside the box and write my new words into simple and easy-understandable sentences. With this first light i managed to light a fire then warm myself in the cold winter days. Sometimes I gave all of my energy just to make another feature but it was all worth it. Now i can give the world what it needs the most - the desire to help others. So... thank you very, very much Zeyneb!
 
 Fork the repository and free to show imagination - change the script.
 * express yourself
