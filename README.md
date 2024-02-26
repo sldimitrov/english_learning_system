@@ -16,7 +16,9 @@ I have developed this system in order to help others to learn English.
 It is proven by scientists that if you connect something that is unusual and new for you
 with something familiar it will let to a neural connection in your brain. This is the
 reason that stays behind the main method we use in this Learning System. Putting a new word
-in a sentence that exposes the definition of the current word.
+in a sentence that exposes the definition of the current word. After that connection happens
+it become much more easier. Next time you hear or read this word your brain you give you the
+whole sentence and you with that the definition will pops up.
 
 
 
