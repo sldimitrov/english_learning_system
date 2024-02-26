@@ -116,7 +116,10 @@ def reg_or_log_user():
                 raise SystemExit
 
         else:
-            print("Unknown answer: " + answer)
+            if answer:
+                print("Unknown answer: " + answer)
+            else:
+                print("Please input a valid answer")
             continue
 
     return False
