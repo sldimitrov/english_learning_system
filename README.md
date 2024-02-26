@@ -1,7 +1,7 @@
 # English Learning System
 
 ## Mission
-* This project is not something random. I have developed this system in order to help others
+* This project is not something random. I have developed this it in order to help others
 to learn English. When I first started (02/11/23) my idea was to create something that
 people will be happy to use, program that will automate some boring process in our lifestyle.
 * An old Chinese saying goes - "*If you want to help others - help yourself first*".
