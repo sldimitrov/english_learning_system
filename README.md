@@ -33,7 +33,7 @@ Current file location [here](https://github.com/sldimitrov/english_learning_syst
 ```python
 pip install -r requirements.txt
  ```
-* If that command does not work whatever the reason is. You can try with:
+* If that command does not work you can try again with:
 ```python
 pip install pyttsx3 
  ```
