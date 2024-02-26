@@ -17,6 +17,7 @@ with something familiar it will let to a neural connection in your brain. This i
 reason that stays behind this method of putting a new word in a sentence that
 expresses its definition.
 
+![Screenshot 2023-12-22 003750](https://dana.org/app/uploads/2023/09/qa-what-happens-synapse.jpeg)
 
 ## Knowledge stack
  Starting from the biggest unit - **Class**, to the lowest - **Variable**, this project has both and many things in between.
