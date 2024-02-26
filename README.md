@@ -15,11 +15,8 @@ my own learning process and there was nothing more boring in it than writing eve
 ###### Read more information about it [here](https://github.com/sldimitrov/english_learning_system/blob/main/README.md#why-writing-whole-sentences-with-the-new-words-instead-of-just-them)
 
 ## *II*. How to use the program?
-1. Input the words or phrases into a txt file every one on a new line.
-2. Initialise another empty file (sentences_list.txt) in this example (or you can just change the path as you like) to save the written sentences.
-3. Run the program and translate every word(https://translate.google.bg/?hl=bg), then put it in a sentence.
-4. Once the program has been terminated the last step is re-reading the output file as many times as needed to memorise the whole sentences and then the meaning of the new words as well.
-5. If that project helps you in one way or another don't forger to put a star on my sky ;)
+### Set-up
+* The first thing you want to do is to gather some words which meaning is unknown for you. From then on you should open the file - 'new_words.txt' [screenshot]() 
 
 ## Live Demo
 
