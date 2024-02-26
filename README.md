@@ -10,6 +10,7 @@ I have developed this system in order to help others to learn English.
 4. Once the program has been terminated the last step is re-reading the output file as many times as needed to memorise the whole sentences and then the meaning of the new words as well.
 5. If that project helps you in one way or another don't forger to put a star on my sky ;)
 
+## Live Demo / Screenshots
 
 ## Why writing whole sentences with the new words instead of just them?
 <img align="right" width=240px height=180px alt="side_sticker" src="https://dana.org/app/uploads/2023/09/qa-what-happens-synapse.jpeg"/>
@@ -35,16 +36,8 @@ Data-types that are commonly used are `lists` and `dictionaries` with `comprehen
 This part of the project is dealing with some `super methods` like ''__name__''.
  #### To sum up, in this project I have used every one of the things I have learned since I started my path of learning Software Development. Not only that, but it helped me to learn much more. Now it is your time to use what I am offering you and `learn on your own` - [here](https://github.com/sldimitrov/english_learning_system/blob/main/learning_system_project/__main__.py)
 
-## Screenshots
+## Adjustments
 
-![Screenshot 2023-12-22 003750](https://theirworld.org/wp-content/uploads/2017/01/Syria-schools-2.jpg)
-
-photo 2
-
-
-```python
-subtitle = "Adjustments"
-```
 Fork the repository and free to show imagination - change the script.
 * express yourself
 * add new functionality
