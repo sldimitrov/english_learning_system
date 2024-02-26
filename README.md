@@ -9,8 +9,8 @@ Because of that I came up with the idea of creating program that evolved into wh
 that enables you to learn English words in very innovative way. The reason was I had hard-times
 learning new words in English. The basic method of writing a word 30 times or more is just ridiculous
 and it didn't work for me. 
-#### Writing every new word in a sentence which exposes its definition is much better!
-#### Dive deeper into the program itself and find it for yourself!
+* Writing every new word in a sentence which exposes its definition is much better!
+** Dive deeper into the program itself and find it for yourself!
 
 ## How to use it
 1. Input the words or phrases into a txt file every one on a new line.
