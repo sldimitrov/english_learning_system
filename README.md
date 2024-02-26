@@ -25,7 +25,7 @@ my own learning process and there was nothing more boring in it than writing eve
 
 * this is me playing the guitar
 
-## *III* Why writing new words into sentences rather than just the words?
+## *III.* Why writing new words into sentences rather than just the words?
 <img align="right" width=240px height=200px alt="side_sticker" src="https://dana.org/app/uploads/2023/09/qa-what-happens-synapse.jpeg"/>
 It is proven by scientists that if you connect something that is unusual and new for you
 with something familiar it will let to a neural connection in your brain. This is the scientific explanation
@@ -35,7 +35,7 @@ it become much more easier for you to memorize its meaning. Next time you hear o
 whole sentence and with that the definition will appear in your mind.
 
 
-## *IV* Knowledge stack
+## *IV.* Knowledge stack
  ### The first part of the project - *User Authentication*. 
 In order to develop it I had used `try-except blocks` to handle errors with my `Custom Exceptions`, and `functions` to validate the User input.
 `SQLlite database` is the place where the program saves the User credentials after `hashing the password` with the support of the
@@ -48,11 +48,11 @@ Data-types that are commonly used are `lists` and `dictionaries` with `comprehen
 This part of the project is dealing with some `super methods` like ''__name__''.
  #### `To sum up`, in this project `I have used every one of the things I have learned since I started my career as Software Developer`. Not only that, but it helped me to learn much more. Now it is your time to use what I am offering you and `learn on your own` - [here](https://github.com/sldimitrov/english_learning_system/blob/main/learning_system_project/__main__.py)
 
-## *V* Screenshots
+## *V.* Screenshots
 
 * this is me wathing the screen for 3 hours straight
 
-## *VI* Adjustments
+## *VI.* Adjustments
 
 Fork the repository and free to show imagination - change the script.
 * express yourself
