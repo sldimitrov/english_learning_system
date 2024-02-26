@@ -13,8 +13,10 @@
 5. If that project helps you in one way or another don't forger to put a star on my sky ;)
 
 # Knowledge stack #
-Python was involved, of course.
-- functions, file manipulation, dictionaries, lists, etc.
+Starting from the biggest unit - Class, to the lowest - Variable, this project has both and many things in between.
+I used Exception class and try-except blocks to catch mistakes that could eventually end the program itself. Functions
+are very common. I used them to separate the big problem into small ones which can be solved easily. Following this pattern
+from the very beggining to this moment I fell the freedom of adding new features whenever I want to. Nevertheless, 
 
 # Screenshots #
 
