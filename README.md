@@ -23,11 +23,11 @@ whole sentence and you with that the definition will pops like a popcorn in fron
 
 
 ## Knowledge stack
- The first important part of the project was to create the *User Authentication*. 
-For the purpose I had used `try-except blocks` to handle errors with my `Custom Exceptions`, and `functions` to validate the User input.
+ ### The first part of the project is the *User Authentication*. 
+In order to develop it I had used `try-except blocks` to handle errors with my `Custom Exceptions`, and `functions` to validate the User input.
 `SQLlite database` is the place where the program saves the User credentials after `hashing the password` with the support of the
 `hashlib` library. To `append` and `read` `data` `from` the `database` I have used `SQL` commands.
- ### The second...
+ ### The second part is the functionality I offer to every User - English Learning System
 
   `Functions` are also commonly used. I used them to `separate` the `big problem` into `small ones` which I had
 solved easily. Nevertheless, appending, reading and deleting information from files is essetial for the project so the `file-handling`
