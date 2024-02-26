@@ -1,8 +1,6 @@
 # English Learning System
 
-```python
-subtitle = "Documentation"
-```
+## Documentation
 I have developed this system in order to help others to learn English. 
 
  To make something useful was my goal making this program. I am going to use it this year to prepare myself for the Final English Exam in 12th grade. How to use the script:
