@@ -28,11 +28,11 @@ In order to develop it I had used `try-except blocks` to handle errors with my `
 `SQLlite database` is the place where the program saves the User credentials after `hashing the password` with the support of the
 `hashlib` library. To `append` and `read` `data` `from` the `database` I have used `SQL` commands.
  ### The second part is the functionality I offer to every User - English Learning System
-
-  `Functions` are also commonly used. I used them to `separate` the `big problem` into `small ones` which I had
-solved easily. Nevertheless, appending, reading and deleting information from files is essetial for the project so the `file-handling`
-is also on point. For the data-operation I mainly used `lists` and `dictionaries` with `comprehensions` to make the code more `readable`.
-in acceptable format. In one function a ''__name__'' `super method` was defined.
+ 
+  `Functions` helped me to `separate` the `big problem` into `small ones` which I had
+solved easily. Nevertheless, `file-handling` take big role in the project. We can append, read and delete information from files.
+Data-types that are commonly used are `lists` and `dictionaries` with `comprehensions` on some places to make the code more `readable`.
+This part of the project is dealing with some `super methods` like ''__name__''.
  To sum up, in this project I have used every one of the things I have learned since I started my Advanced Module and even more.
 I am very glad to share you that because this is the main purpose of the project - to `help others to learn`.
 
