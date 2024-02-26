@@ -26,7 +26,7 @@ Current file location [here](https://github.com/sldimitrov/english_learning_syst
 ### Install Project Requirements
 * You need to open the Python Terminal and write the following command
 ```python
-$ pip install -r requirements.txt
+pip install -r requirements.txt
  ```
 
 
