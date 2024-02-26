@@ -17,7 +17,7 @@ with something familiar it will let to a neural connection in your brain. This i
 reason that stays behind the main method we use in this Learning System. Putting a new word
 in a sentence that exposes the definition of the current word.
 
-<img align="right" width=120px height=120px alt="side_sticker" src="https://dana.org/app/uploads/2023/09/qa-what-happens-synapse.jpeg"/>
+<img align="right" width=200px height=220px alt="side_sticker" src="https://dana.org/app/uploads/2023/09/qa-what-happens-synapse.jpeg"/>
 
 
 
