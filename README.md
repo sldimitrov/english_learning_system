@@ -3,12 +3,13 @@
 ## Mission
 This project is not something random. I have developed this system in order to help others
 to learn English. When I first started (02/11/23) my idea was to create something that
-people will be happy to use. Program that automate any action in our lifestyle. An
-old Chinese saying goes - "If you want to help others - help yourself first".
-Because of that I came up with the idea of creating not a program but a whole system 
-that enables you to learn English words in very innovative way. The reason I did it
-could be my English Matura Exam or maybe it is just my love mixed with
-dedication to the language itself. We will never know...
+people will be happy to use, program that will automate some boring process in our lifestyle. An
+old Chinese saying goes - "*If you want to help others - help yourself first*".
+Because of that I came up with the idea of creating program that evolved into whole system 
+that enables you to learn English words in very innovative way. The reason was I had hard-times
+learning new words in English. The basic method of writing a word 30 times or more is just ridiculous
+and it didn't work for me. 
+#### Writing every new word in a sentence which exposes its definition is much better! Dive deeper into the program itself and find it for yourself!
 
 ## How to use it
 1. Input the words or phrases into a txt file every one on a new line.
