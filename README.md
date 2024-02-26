@@ -27,7 +27,7 @@ whole sentence and you with that the definition will pops like a popcorn in fron
 In order to develop it I had used `try-except blocks` to handle errors with my `Custom Exceptions`, and `functions` to validate the User input.
 `SQLlite database` is the place where the program saves the User credentials after `hashing the password` with the support of the
 `hashlib` library. To `append` and `read` `data` `from` the `database` I have used `SQL` commands.
- ### The second part is the functionality I offer to every User - English Learning System
+ ### The second part - English Learning System
  
   `Functions` helped me to `separate` the `big problem` into `small ones` which I had
 solved easily. Nevertheless, `file-handling` take big role in the project. We can append, read and delete information from files.
