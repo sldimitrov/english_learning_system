@@ -11,7 +11,7 @@ I have developed this system in order to help others to learn English.
 5. If that project helps you in one way or another don't forger to put a star on my sky ;)
 
 
-```python
+##```python
 question = "Why writing whole sentences with the new words instead of just the words?"
 ```
 It is proven by scientists that if you connect something that is unusual and new for you
