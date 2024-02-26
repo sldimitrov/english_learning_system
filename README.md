@@ -51,7 +51,7 @@ pip install pyttsx3
 ---
    * After you pass login sucessfully you will acces the English Learning System
 ![menu_photo](https://github.com/sldimitrov/english_learning_system/assets/135168991/fb8b8ce8-c123-47f1-a564-69e6998fd8b0)
-### If you have any questions or you do not understand something
+### In case you have any questions or you do not understand something:
   * Choose 6 for info in the menu of the program.
   * Or contant with me. My social accounts you can fine [here](https://github.com/sldimitrov)
 
