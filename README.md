@@ -13,7 +13,7 @@
 5. If that project helps you in one way or another don't forger to put a star on my sky ;)
 
 # Knowledge stack #
- Starting from the biggest unit - Class, to the lowest - Variable, this project has both and many things in between.
+ Starting from the biggest unit - *Class*, to the lowest - *Variable*, this project has both and many things in between.
 With an SQLlite database on top... I used Exception class and try-except blocks to handle errors that could eventually
 end the program itself. Functions are very common. I used them to separate the big problem into small ones which can be solved
 easily. Following this pattern from the very beggining to this moment it really gives me the feeling of freedom to addi new features
