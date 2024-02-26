@@ -26,7 +26,7 @@ my own learning process and there was nothing more boring in it than writing eve
 * this is me playing the guitar
 
 ## Why writing new words into sentences rather than just the words?
-<img align="right" width=240px height=200px alt="side_sticker" src="https://dana.org/app/uploads/2023/09/qa-what-happens-synapse.jpeg"/>
+<img align="right" width=240px height=180px alt="side_sticker" src="https://dana.org/app/uploads/2023/09/qa-what-happens-synapse.jpeg"/>
 It is proven by scientists that if you connect something that is unusual and new for you
 with something familiar it will let to a neural connection in your brain. This is the scientific explanation
 that stays behind the main method we use in this Learning System. Put any new word
