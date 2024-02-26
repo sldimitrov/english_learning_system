@@ -18,7 +18,7 @@ reason that stays behind this method of putting a new word in a sentence that
 expresses its definition.
 
 
-# Knowledge stack #
+## Knowledge stack
  Starting from the biggest unit - **Class**, to the lowest - **Variable**, this project has both and many things in between.
 With an **SQLlite** database on top... I used **Exception class** and **try-except blocks** to handle errors that could eventually
 end the program itself. **Functions** are very common. I used them to **separate the big problem** into small ones which can be solved
@@ -31,7 +31,7 @@ a ''__name__'' **super method** was defined.
  To sum up, in this project I have used every one of the things I have learned since I started my Advanced Module and even more.
 I am very glad to share you that because this is the main purpose of the project - to **help others to learn**.
 
-# Screenshots #
+## Screenshots
 
 ![Screenshot 2023-12-22 003750](https://theirworld.org/wp-content/uploads/2017/01/Syria-schools-2.jpg)
 
