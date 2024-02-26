@@ -1,1 +1,4 @@
 Write information about how to use every one of the text files 
+
+todo: Leave only the new_words near to the main other save in anth folder.
+todo: save all database files into a folder and so on
