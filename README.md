@@ -16,7 +16,7 @@ my own learning process and there was nothing more boring in it than writing eve
 
 ## *II*. How to use the program?
 ### Set-up
-* The first thing you want to do is to gather some words which meaning is unknown for you. From then on you should open the file - 'new_words.txt' [screenshot]() 
+* The first thing you want to do is to gather some words which meaning is unknown for you. From then on you should open the file - 'list_of_words.txt' [screenshot]() 
 
 ## Live Demo
 
