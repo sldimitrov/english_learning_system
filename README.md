@@ -24,9 +24,13 @@ Current file location [here](https://github.com/sldimitrov/english_learning_syst
 ### **PATTERN : 'word' - 'definition'**
 *ERROR WARNING: DO NOT FORGET TO INPUT SPACES OR TO SEPARATE THE WORD AND THE DEFINITION WITH '-'*
 ### Install Project Requirements
-* You need to open the Python Terminal and write the following command
+* You need to open the Python Terminal and write the following command:
 ```python
 pip install -r requirements.txt
+ ```
+* If that command does not work whatever the reason is. You can try with:
+```python
+pip install pyttsx3 
  ```
 
 
