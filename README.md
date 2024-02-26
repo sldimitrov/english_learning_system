@@ -28,10 +28,10 @@ my own learning process and there was nothing more boring in it than writing eve
 ## Why writing new words into sentences rather than just the words?
 <img align="right" width=240px height=180px alt="side_sticker" src="https://dana.org/app/uploads/2023/09/qa-what-happens-synapse.jpeg"/>
 It is proven by scientists that if you connect something that is unusual and new for you
-with something familiar it will let to a neural connection in your brain. This is the
-reason that stays behind the main method we use in this Learning System. Putting a new word
-in a sentence that exposes the definition of the current word. After that connection happens
-it become much more easier. Next time you hear or read this word your brain you give you the
+with something familiar it will let to a neural connection in your brain. This is the psihycal description
+that stays behind the main method we use in this Learning System. Put any new word
+in a sentence that exposes the definition of the current word. After the connection happens
+it become much more easier for you to memorize its meaning. Next time you hear or read this word your brain you give you the
 whole sentence and you with that the definition will pops like a popcorn in front of your frozen face.
 
 
