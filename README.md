@@ -52,11 +52,9 @@ pip install pyttsx3
    * After you pass login sucessfully you will acces the English Learning System
 ![menu_photo](https://github.com/sldimitrov/english_learning_system/assets/135168991/fb8b8ce8-c123-47f1-a564-69e6998fd8b0)
 
+## Software Use - Live Demo
 
 
-## Live Demo
-
-* this is me playing the guitar
 
 ## *III.* Why writing new words into sentences rather than just the words?
 <img align="right" width=240px height=200px alt="side_sticker" src="https://dana.org/app/uploads/2023/09/qa-what-happens-synapse.jpeg"/>
@@ -81,11 +79,7 @@ Data-types that are commonly used are `lists` and `dictionaries` with `comprehen
 This part of the project is dealing with some `super methods` like ''__name__''.
  #### `To sum up`, in this project `I have used every one of the things I have learned since I started my career as Software Developer`. Not only that, but it helped me to learn much more. Now it is your time to use what I am offering you and `learn on your own` - [here](https://github.com/sldimitrov/english_learning_system/blob/main/learning_system_project/__main__.py)
 
-## *V.* Screenshots
-
-* this is me wathing the screen for 3 hours straight
-
-## *VI.* Adjustments
+## *V.* Adjustments
 
 Fork the repository and free to show imagination - change the script.
 * express yourself
