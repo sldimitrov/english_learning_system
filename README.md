@@ -55,11 +55,6 @@ pip install pyttsx3
   * Choose 6 for info in the menu of the program.
   * Or contant with me. My social accounts you can fine [here](https://github.com/sldimitrov)
 
-## Software Use - Live Demo
-### Soon...
-
-
-
 ## *III.* Why writing new words into sentences rather than just the words?
 <img align="right" width=240px height=200px alt="side_sticker" src="https://dana.org/app/uploads/2023/09/qa-what-happens-synapse.jpeg"/>
 It is proven by scientists that if you connect something that is unusual and new for you
