@@ -27,9 +27,7 @@ Current file location [here](https://github.com/sldimitrov/english_learning_syst
 
 *ERROR WARNING: DO NOT FORGET TO INPUT SPACES OR TO SEPARATE THE WORD AND THE DEFINITION WITH '-'*
 * PATTERN : 'word' - 'definition'
-
 ---
-
 **Install Project Requirements**
 * You need to open the Python Terminal and write the following command:
 ```python
@@ -39,6 +37,10 @@ pip install -r requirements.txt
 ```python
 pip install pyttsx3 
  ```
+
+### Running the program
+- After the set-up above you are ready to run the program.
+  * Open [main.py]() file and run it
 
 
 ## Live Demo
