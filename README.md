@@ -9,7 +9,7 @@ Because of that I came up with the idea of creating not a program but a whole sy
 that enables you to learn English words in very innovative way. The reason I did it
 could be my English Matura Exam or maybe it is just my love mixed with
 dedication to the language itself. We will never know...
-P.S, thank you **Zeyneb** - the girl gave me the essence of the main method and with this
+P.S, thank you *Zeyneb* - the girl gave me the essence of the main method and with this
 made one of my dreams come true.
 
 
