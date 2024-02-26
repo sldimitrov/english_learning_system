@@ -70,13 +70,17 @@ whole sentence and with that the definition will appear in your mind.
 In order to develop it I had used `try-except blocks` to handle errors with my `Custom Exceptions`, and `functions` to validate the User input.
 `SQLlite database` is the place where the program saves the User credentials after `hashing the password` with the support of the
 `hashlib` library. To `append` and `read` `data` `from` the `database` I have used `SQL` commands.
+
+---
+
  ### The second part - *English Learning System*.
- ---
   `Functions` helped me to *separate* the *big problem* into *small ones* which I had
 solved easily. Nevertheless, `file-handling` take big role in the project. We can append, read and delete information from files.
 Data-types that are commonly used are `lists` and `dictionaries` with `comprehensions` on some places to make the *code* more *readable*.
 This part of the project is dealing with some `super methods` like ''__name__''.
+
 ---
+
  #### `To sum up`, in this project `I have used every one of the things I have learned since I started my career as Software Developer`. Not only that, but it helped me to learn much more. Now it is your time to use what I am offering you and `learn on your own` - [here](https://github.com/sldimitrov/english_learning_system/blob/main/learning_system_project/__main__.py)
 
 ## *V.* Adjustments
