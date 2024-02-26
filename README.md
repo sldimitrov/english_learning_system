@@ -1,6 +1,14 @@
 # English Learning System
 
-## Essentials
+## Mission
+This project is not something random. I have developed this system in order to help others
+to learn English. When I first started (02/11/23) my idea was to create something that
+people will be happy to use. Program that automate any action in our lifestyle. An
+old Chinese saying goes - "If you want to help others - help yourself first".
+Then I came up with the idea of creating not a program but a whole system 
+that enables you to learn English word in very innovative way.
+
+
 I have developed this system in order to help others to learn English. To make something useful was my goal making this program. I am going to use it this year to prepare myself for the Final English Exam in 12th grade.
 
 ## How to use it
