@@ -28,7 +28,7 @@ Current file [location](https://github.com/sldimitrov/english_learning_system/bl
 * You should input the data into the file as in the following example:
 ![Screenshot 2024-02-26 222338](https://github.com/sldimitrov/english_learning_system/assets/135168991/8631ac94-6c8f-4431-9a5b-20d58062fd62)
 
-- ERROR WARNING:
+- ERROR WARNINGS:
   * PATTERN : 'word' - 'definition'
   * DO NOT FORGET TO INPUT SPACES OR TO SEPARATE THE WORD AND THE DEFINITION WITH '-'!!!
   * THE PROGRAM DOES NOT WORK WITH BULGARIAN DEFINITIONS!!!
