@@ -85,9 +85,10 @@ This part of the project is dealing with some `super methods` like ''__name__''.
  In this project `I have used every one of the things I have learned since I started my career as Software Developer`. Not only that, but developing it I have learnt much more. Now it is your time to use what I am offering you and `learn on your own` - [here](https://github.com/sldimitrov/english_learning_system/blob/main/learning_system_project/__main__.py)
 
 ## *V.* Postscript
-Enourmous recognition is what my classmate and friend Zeyneb deserves. He was the girl that gave me the inspiration
+ * Enourmous recognition is what my classmate and friend Zeyneb deserves. He was the girl that gave me the inspiration
 of thinking outside the box and write my new words into simple and easy-understandable sentences. With this first light i managed to light a fire then warm myself in the cold winter days. Sometimes I gave all of my energy just to make another feature but it was all worth it. Now i can give the world what it needs the most - the desire to help others. So... thank you very, very much Zeyneb!
 
+* About you other fellows:
 Fork the repository and free to show imagination - change the script.
 * express yourself
 * add new functionality
