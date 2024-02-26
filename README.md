@@ -1,6 +1,6 @@
 # English Learning System
 
-##  I. Essentials
+##  *I*. Essentials
 #### Mission:
 * This project is not something random. I have developed it in order to help others in learning English.When I first started (02/11/23) my idea was to create something that people will be happy to use, program that will automate some boring process in our lifestyle.
 
@@ -14,7 +14,7 @@ my own learning process and there was nothing more boring in it than writing eve
 * Writing every new word in a sentence which exposes its definition is our method and it is much better!
 ###### Read more information about it [here](https://github.com/sldimitrov/english_learning_system/blob/main/README.md#why-writing-whole-sentences-with-the-new-words-instead-of-just-them)
 
-## How to use the program?
+## *II*. How to use the program?
 1. Input the words or phrases into a txt file every one on a new line.
 2. Initialise another empty file (sentences_list.txt) in this example (or you can just change the path as you like) to save the written sentences.
 3. Run the program and translate every word(https://translate.google.bg/?hl=bg), then put it in a sentence.
