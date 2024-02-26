@@ -20,9 +20,9 @@ my own learning process and there was nothing more boring in it than writing eve
 ### Set-up
 * The first thing you want to do is to gather some words which meaning is unknown for you. From then on you should open the file - 'list_of_words.txt' ![dir_photo](https://github.com/sldimitrov/english_learning_system/assets/135168991/fb83d993-bf4a-40ae-8f9e-78838993d5f4)
 Current file location [here](https://github.com/sldimitrov/english_learning_system/blob/main/learning_system_project/list_of_words.txt)
-* After you located this text file. Open [Cambridge Dictionary](https://dictionary.cambridge.org/#google_vignette) and search for the definition of every word you want to. In current scenario you should input the data into the file as the following example: ![Screenshot 2024-02-26 222338](https://github.com/sldimitrov/english_learning_system/assets/135168991/8631ac94-6c8f-4431-9a5b-20d58062fd62)
-
-
+* After you located this text file. Open [Cambridge Dictionary](https://dictionary.cambridge.org/#google_vignette) and search for the definition of every word you want to. You should input the data into the file as in the following example: ![Screenshot 2024-02-26 222338](https://github.com/sldimitrov/english_learning_system/assets/135168991/8631ac94-6c8f-4431-9a5b-20d58062fd62)
+### PATTERN : 'word' : 'definition'
+IF YOU DON'T INPUT SPACES OR MISS TO SEPARATE THE WORD AND DEF. WITH ':' AN ERROR MIGHT OCCUR
 
 
 ## Live Demo
