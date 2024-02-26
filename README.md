@@ -23,15 +23,16 @@ whole sentence and you with that the definition will pops like a popcorn in fron
 
 
 ## Knowledge stack
- Starting from the biggest unit - `Class`, to the lowest - `Variable`, this project has both and many things in between.
-With an `SQLlite` database on top... I used `Exception class` and `try-except blocks` to handle errors that could eventually
-end the program itself. `Functions` are very common. I used them to `separate the big problem` into small ones which can be solved
-easily. Following this pattern from the very beggining to this moment it really gives me the feeling of freedom to adding new features
-whenever I want to. Nevertheless, appending, reading and deleting information from files is essetial for the project so the `file-handling`
-is also on point. For the data-operation I mainly used lists and `dictionaries`. There were many `for` and `while loops`. I used `hashing algorithms`
-that `encrypt the password` of the user and save it to the database in acceptable format. Another I used were the `dict` and `list comprehensions`. 
-They saved me plenty lines of code and made everything much more `readable` which is the main reason I have ever used them. In one function
-a ''__name__'' `super method` was defined.
+ The first important part of the project was to create the *User Authentication*. 
+For the purpose I had used `try-except blocks` to handle errors with my `Custom Exceptions`, and `functions` to validate the User input.
+`SQLlite database` is the place where the program saves the User credentials after `hashing the password` with the support of the
+`hashlib` library. To `append` and `read` `data` `from` the `database` I have used `SQL` commands.
+ ### The second...
+
+  `Functions` are also commonly used. I used them to `separate` the `big problem` into `small ones` which I had
+solved easily. Nevertheless, appending, reading and deleting information from files is essetial for the project so the `file-handling`
+is also on point. For the data-operation I mainly used `lists` and `dictionaries` with `comprehensions` to make the code more `readable`.
+in acceptable format. In one function a ''__name__'' `super method` was defined.
  To sum up, in this project I have used every one of the things I have learned since I started my Advanced Module and even more.
 I am very glad to share you that because this is the main purpose of the project - to `help others to learn`.
 
