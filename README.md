@@ -12,7 +12,7 @@ my own learning process and there was nothing more boring in it than writing eve
   * Check how to use it [here](https://github.com/sldimitrov/english_learning_system/blob/main/README.md#how-to-use-the-program)
 - The innovative way:
    * Writing every new word in a sentence which exposes its definition is our method and it is much better!
-   * Read more information about it [here](https://github.com/sldimitrov/english_learning_system/blob/main/README.md#why-writing-whole-sentences-with-the-new-words-instead-of-just-them)
+   * Read more [information](https://github.com/sldimitrov/english_learning_system/blob/main/README.md#why-writing-whole-sentences-with-the-new-words-instead-of-just-them) about it here
 
 ## *II*. How to use the program?
 ### Set-up
