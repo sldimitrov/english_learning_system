@@ -14,9 +14,11 @@ my own learning process and there was nothing more boring in it than writing eve
 * Writing every new word in a sentence which exposes its definition is our method and it is much better!
 ###### Read more information about it [here](https://github.com/sldimitrov/english_learning_system/blob/main/README.md#why-writing-whole-sentences-with-the-new-words-instead-of-just-them)
 
+
+
 ## *II*. How to use the program?
 ### Set-up
-* The first thing you want to do is to gather some words which meaning is unknown for you. From then on you should open the file - 'list_of_words.txt' <img align="center" width=360px height=320px alt="dir_photo" src="https://github.com/sldimitrov/english_learning_system/assets/135168991/05a22ba0-2d26-4095-adad-aa8065dd97f3"/>
+* The first thing you want to do is to gather some words which meaning is unknown for you. From then on you should open the file - 'list_of_words.txt' <img align="right" width=420px height=380px alt="dir_photo" src="https://github.com/sldimitrov/english_learning_system/assets/135168991/05a22ba0-2d26-4095-adad-aa8065dd97f3"/>
 
 
 
