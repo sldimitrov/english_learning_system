@@ -15,7 +15,7 @@ that enables you to learn English words in very innovative way.
 #### It is all about you now...
 * Dive deeper into the program itself and find the wonders it makes yourself!
 
-## How to use it
+## How to use the program?
 1. Input the words or phrases into a txt file every one on a new line.
 2. Initialise another empty file (sentences_list.txt) in this example (or you can just change the path as you like) to save the written sentences.
 3. Run the program and translate every word(https://translate.google.bg/?hl=bg), then put it in a sentence.
