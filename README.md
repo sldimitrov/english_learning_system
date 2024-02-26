@@ -11,7 +11,7 @@ my own learning process and there was nothing more boring than writing every new
 * Because of that I came up with the idea of creating program that evolved into whole system 
 that enables you to learn English words in very innovative way. 
 #### The innovative way:
-* Writing every new word in a sentence which exposes its definition is our method and it is much better!
+* Writing every new word in a sentence which exposes its definition is our method and it is much better! [more info](https://github.com/sldimitrov/english_learning_system/blob/main/README.md#why-writing-whole-sentences-with-the-new-words-instead-of-just-them)
 #### It is all about you now...
 * Dive deeper into the program itself and find the wonders it makes yourself!
 
