@@ -9,9 +9,9 @@ my own learning process and there was nothing more boring than writing every new
 * Because of that I came up with the idea of creating program that evolved into whole system 
 that enables you to learn English words in very innovative way. 
 
-* Writing every new word in a sentence which exposes its definition is our method!
+* Writing every new word in a sentence which exposes its definition is our method and it is much better!
 
-* Dive deeper into the program itself and find why!
+* Dive deeper into the program itself and find yourself why!
 
 ## How to use it
 1. Input the words or phrases into a txt file every one on a new line.
