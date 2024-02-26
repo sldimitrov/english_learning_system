@@ -82,7 +82,7 @@ This part of the project is dealing with some `super methods` like ''__name__''.
 ---
 
  ### To sum up:
- In this project `I have used every one of the things I have learned since I started my career as Software Developer`. Not only that, but it helped me to learn much more. Now it is your time to use what I am offering you and `learn on your own` - [here](https://github.com/sldimitrov/english_learning_system/blob/main/learning_system_project/__main__.py)
+ In this project `I have used every one of the things I have learned since I started my career as Software Developer`. Not only that, but developing it I have learnt much more. Now it is your time to use what I am offering you and `learn on your own` - [here](https://github.com/sldimitrov/english_learning_system/blob/main/learning_system_project/__main__.py)
 
 ## *V.* Adjustments
 
