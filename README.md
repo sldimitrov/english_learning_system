@@ -24,7 +24,7 @@ Current file location [here](https://github.com/sldimitrov/english_learning_syst
 * After you located this text file. Open [Cambridge Dictionary](https://dictionary.cambridge.org/#google_vignette) and search for the definition of every word you want to. You should input the data into the file as in the following example: ![Screenshot 2024-02-26 222338](https://github.com/sldimitrov/english_learning_system/assets/135168991/8631ac94-6c8f-4431-9a5b-20d58062fd62)
 
 *ERROR WARNING: DO NOT FORGET TO INPUT SPACES OR TO SEPARATE THE WORD AND THE DEFINITION WITH '-'*
-**PATTERN : 'word' - 'definition'**
+* PATTERN : 'word' - 'definition'
 
 ---
 
