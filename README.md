@@ -6,7 +6,7 @@
 
 #### Where the idea came from?
 * An old Chinese saying goes - "*If you want to help others - help yourself first*". From then on I have tought about
-my own learning process and there was nothing more boring than writing every new word from my English classes x30 times.
+my own learning process and there was nothing more boring in it than writing every new word from my English classes x30 times.
 #### The idea itself:
 * Because of that I came up with the idea of creating program that evolved into whole system 
 that enables you to learn English words in very innovative way.
