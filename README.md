@@ -14,8 +14,6 @@ my own learning process and there was nothing more boring in it than writing eve
    * Writing every new word in a sentence which exposes its definition is our method and it is much better!
    * Read more information about it [here](https://github.com/sldimitrov/english_learning_system/blob/main/README.md#why-writing-whole-sentences-with-the-new-words-instead-of-just-them)
 
-
-
 ## *II*. How to use the program?
 ### Set-up
 * The first thing you need to do in order to use the program is to fork the repository 
@@ -50,6 +48,9 @@ pip install pyttsx3
 ---
    * Once you register succesfully you will be asked to login.
 ![Screenshot 2024-02-26 234857](https://github.com/sldimitrov/english_learning_system/assets/135168991/ab9d7f69-4aa2-454e-bc3a-65098780f406)
+---
+   * After you pass login sucessfully you will acces the English Learning System
+![menu_photo](https://github.com/sldimitrov/english_learning_system/assets/135168991/fb8b8ce8-c123-47f1-a564-69e6998fd8b0)
 
 
 
