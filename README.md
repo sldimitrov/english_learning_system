@@ -1,10 +1,10 @@
 # English Learning System
 
 ## Essentials
-I have developed this system in order to help others to learn English. 
+I have developed this system in order to help others to learn English. To make something useful was my goal making this program. I am going to use it this year to prepare myself for the Final English Exam in 12th grade.
 
 ## How to use it
- To make something useful was my goal making this program. I am going to use it this year to prepare myself for the Final English Exam in 12th grade. How to use the script:
+How to use the script:
 1. Input the words or phrases into a txt file every one on a new line.
 2. Initialise another empty file (sentences_list.txt) in this example (or you can just change the path as you like) to save the written sentences.
 3. Run the program and translate every word(https://translate.google.bg/?hl=bg), then put it in a sentence.
