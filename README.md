@@ -46,7 +46,7 @@ pip install pyttsx3
 ### Running the program
 - After the set-up above you are ready to run the program.
   * Open main.py file in your forked repository and run it. If everything is working fine you should be greeted with user-friendly messages. After that the following question will pop up and if you are using the program for a first time you ought to make an account
-![Screenshot 2024-02-26 234725](https://github.com/sldimitrov/english_learning_system/assets/135168991/a4b5990e-b204-47f5-a412-29cab5082cdb)
+![entry_photo](https://github.com/sldimitrov/english_learning_system/assets/135168991/a4b5990e-b204-47f5-a412-29cab5082cdb)
    * Once you register succesfully you will be asked to login.
 ![Screenshot 2024-02-26 234857](https://github.com/sldimitrov/english_learning_system/assets/135168991/ab9d7f69-4aa2-454e-bc3a-65098780f406)
 
