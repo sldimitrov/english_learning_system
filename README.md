@@ -32,7 +32,7 @@ with something familiar it will let to a neural connection in your brain. This i
 that stays behind the main method we use in this Learning System. Put any new word
 in a sentence that exposes the definition of the unknown word. After the connection happens
 it become much more easier for you to memorize its meaning. Next time you hear or read this word your brain will give you the
-whole sentence and with that the definition will pops like a popcorn.
+whole sentence and with that the definition will pop like a popcorn.
 
 
 ## Knowledge stack
