@@ -9,11 +9,6 @@ Because of that I came up with the idea of creating not a program but a whole sy
 that enables you to learn English words in very innovative way. The reason I did it
 could be my English Matura Exam or maybe it is just my love mixed with
 dedication to the language itself. We will never know...
-P.S, thank you *Zeyneb* - the girl gave me the essence of the main method and with this
-made one of my dreams come true.
-
-
-I have developed this system in order to help others to learn English. To make something useful was my goal making this program. I am going to use it this year to prepare myself for the Final English Exam in 12th grade.
 
 ## How to use it
 1. Input the words or phrases into a txt file every one on a new line.
