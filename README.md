@@ -45,7 +45,8 @@ pip install pyttsx3
 
 ### Running the program
 - After the set-up above you are ready to run the program.
-  * Open [main.py]() file and run it
+  * Open main.py file in your forked repository and run it. If everything is working fine you should be greeted with user-friendly messages and you should press <Any-Key> to continue. After that the following question will pop up...
+
 
 
 ## Live Demo
