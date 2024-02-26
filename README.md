@@ -53,9 +53,10 @@ pip install pyttsx3
 ![menu_photo](https://github.com/sldimitrov/english_learning_system/assets/135168991/fb8b8ce8-c123-47f1-a564-69e6998fd8b0)
 ### If you have any questions or you do not understand something
   * Choose 6 for info in the menu of the program.
-  * Or contant with me. My accounts you can fine [here](https://github.com/sldimitrov)
+  * Or contant with me. My social accounts you can fine [here](https://github.com/sldimitrov)
 
 ## Software Use - Live Demo
+### Soon...
 
 
 
