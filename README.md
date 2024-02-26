@@ -2,12 +2,17 @@
 
 ## Mission
 * This project is not something random. I have developed it in order to help others in learning English.When I first started (02/11/23) my idea was to create something that people will be happy to use, program that will automate some boring process in our lifestyle.
-* An old Chinese saying goes - "*If you want to help others - help yourself first*".
+
+* An old Chinese saying goes - "*If you want to help others - help yourself first*". From then on I have tought about
+my own learning process and there was nothing more boring than writing every new world from my English classes x30 times.
+
+* 
+
 Because of that I came up with the idea of creating program that evolved into whole system 
-that enables you to learn English words in very innovative way. The reason was I had hard-times
-learning new words in English.
-* The basic method of writing a word 30 times or more is just ridiculous and it didn't work for me. 
-Writing every new word in a sentence which exposes its definition is much better!
+that enables you to learn English words in very innovative way. 
+
+* Writing every new word in a sentence which exposes its definition is much better!
+
 * Dive deeper into the program itself and find it for yourself!
 
 ## How to use it
