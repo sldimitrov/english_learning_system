@@ -26,8 +26,6 @@ Current file location [here](https://github.com/sldimitrov/english_learning_syst
 
 ### **PATTERN : 'word' - 'definition'**
 
----
-
 *ERROR WARNING: DO NOT FORGET TO INPUT SPACES OR TO SEPARATE THE WORD AND THE DEFINITION WITH '-'*
 
 ---
