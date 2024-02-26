@@ -12,7 +12,7 @@ my own learning process and there was nothing more boring than writing every new
 that enables you to learn English words in very innovative way. 
 #### Main method
 * Writing every new word in a sentence which exposes its definition is our method and it is much better!
-# It is all about you now...
+#### It is all about you now...
 * Dive deeper into the program itself and find yourself why!
 
 ## How to use it
