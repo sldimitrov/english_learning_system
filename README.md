@@ -5,7 +5,7 @@
 This project is not something random. I have developed it in order to help others in learning English.When I first started (02/11/23) my idea was to create something that people will be happy to use, program that will automate some boring process in our lifestyle.
 
   - Where the idea came from?
-An old Chinese saying goes - "*If you want to help others - help yourself first*". From then on I have tought about
+      * An old Chinese saying goes - "*If you want to help others - help yourself first*". From then on I have tought about
 my own learning process and there was nothing more boring in it than writing every new word from my English classes x30 times.
 * The idea itself:
 After all, I came up with the idea of creating program that enables you to learn English words in very innovative way.
