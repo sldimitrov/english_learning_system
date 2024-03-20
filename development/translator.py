@@ -34,4 +34,3 @@ class Definer:
 
         return definition
 
-
