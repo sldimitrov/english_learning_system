@@ -40,7 +40,7 @@ class EmailDoesNotContainsAtSymbolError(Exception):
 
 class TextToSpeech:
     """
-    The functionality that this class applies to the project is that it open the dictionary
+    The functionality that this class applies to the project is that it, open the dictionary
     file and read every sentence from it. The idea behind this is to train listening and
     to hear the new words more often.
     """
@@ -517,7 +517,7 @@ def show_new_words() -> bool:
 
 def test_knowledge():
     """
-    The function `test_knowledge()` allows the user to play a game where they are given a word and they have to provide
+    The function `test_knowledge()` allows the user to play a game where they are given a word, and they have to provide
     its definition.
     :return: The function `test_knowledge` returns a boolean value `True`.
     """
@@ -648,7 +648,7 @@ def menu() -> str:
 def get_input() -> str:
     """
     When called: This function prints out a message, which asks the user to input a single number.
-    Then: Checks if user's input is valid by calling the (input validator) function and if its not -
+    Then: Checks if user's input is valid by calling the (input validator) function and if it's not -
     calls out the (handle invalid input) which prints out an error message.
     :return: str
     """
@@ -783,4 +783,3 @@ def main():
 
 if __name__ == '__main__':
     main()
-
