@@ -8,6 +8,13 @@ class ApiRequest:
 
 
 class Translator:
+
+    @staticmethod
+    def get_json(some_text: str):
+        response = ApiRequest.get_response(some_text)
+
+        return response.json()
+
     @staticmethod
     def get_definition(some_text: str):
         response = ApiRequest.get_response(some_text)
@@ -30,7 +37,9 @@ class TranslatorApp(Translator, ApiRequest):
 # Initialise an object that can be used to translate words
 definer = TranslatorApp
 
+print(definer.get_json("hello"))
+
 # Print the definition of a word using the (define_word) method
-print(definer.define_word("splash"))
+# print(definer.define_word("splash"))
 
 
