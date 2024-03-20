@@ -2,21 +2,29 @@ import requests
 
 
 class ApiRequest:
+    """ This class is responsible for handling requests from the API server. """
     @staticmethod
     def get_response(word):
+        """ This method requests the API server with GET and returns the response """
         return requests.get(f"https://api.dictionaryapi.dev/api/v2/entries/en/{word}")
-
-
-class Translator:
 
     @staticmethod
     def get_json(some_text: str):
+        """ This method call the get_response method and return its response in JSON format """
         response = ApiRequest.get_response(some_text)
 
         return response.json()
 
+
+class Definer:
+    """ This class is mainly responsible for getting words definitions """
+
     @staticmethod
-    def get_definition(some_text: str):
+    def get_definition(some_text: str) -> str:
+        """ This method get the words definitions.
+        receives: word: str
+        Call get_response method and use its response to extract the word definition.
+        returns: str """
         response = ApiRequest.get_response(some_text)
 
         try:
@@ -25,21 +33,5 @@ class Translator:
             return "Unknown word"
 
         return definition
-
-
-class TranslatorApp(Translator, ApiRequest):
-    @staticmethod
-    def define_word(word: str):
-        definition = Translator.get_definition(word)
-        return f"Definition: {definition}"
-
-
-# Initialise an object that can be used to translate words
-definer = TranslatorApp
-
-print(definer.get_json("hello"))
-
-# Print the definition of a word using the (define_word) method
-# print(definer.define_word("splash"))
 
 
