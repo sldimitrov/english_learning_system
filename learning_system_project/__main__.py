@@ -762,14 +762,14 @@ def main():
     """
     TODO: (4)
 
-        Configuration
-    (1) re-structure the configuration of the functions for more readability
-        - rename some functions if necessary / write comments and so on
-        Authentication
-    (2) add more extensions for the email
-        Learning System
-    (3) record your own voice reading the sentences
-    (4) test_word_knowledge - 1 minute (quick-game)
+    Configuration:
+        (1) re-write the whole program using classes
+    Learning System:
+        (1) record your own voice reading the sentences
+        (2) add a dictionary API for the translations
+        (3) test_word_knowledge - 1 minute (quick-game)
+    Authentication:
+        (1) add more extensions for the email
     """
     greet_user()
 
