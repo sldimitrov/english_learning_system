@@ -93,7 +93,7 @@ Fork the repository and free to show imagination - change the script.
   * express yourself
   * add new functionality
   * add more user-friendly messages
-  * add whatever you want and said feedback ;)
+  * add whatever you want and send feedback ;)
   * JUST do NOT forget to *fork* and *star* the repo!
 ```python 
 n_times = float('inf')
