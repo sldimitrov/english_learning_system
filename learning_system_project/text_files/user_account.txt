@@ -2,3 +2,5 @@
   email : marin_marinkov@gmail.com
   pass = Marinkov123!
 
+  email : slavidimitrov54@gmail.com
+  pass = Slavi123!

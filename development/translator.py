@@ -33,4 +33,3 @@ class Definer:
             return "Unknown word"
 
         return definition
-

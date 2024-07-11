@@ -4,7 +4,7 @@ from development.translator import Definer
 class WriteSentences:
     """ This class is responsible for writing new sentences into the sentences text file """
     @staticmethod
-    def write_sentence(sentence: str) -> None :
+    def write_sentence(sentence: str) -> None:
         """ This method receives a sentence and writes it into the sentences text file """
         with open("D:\\repos\\english\\development\\text_files\\sentences_list.txt", "a") as file:
             file.write(f"{sentence}\n")

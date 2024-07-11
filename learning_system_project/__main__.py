@@ -502,7 +502,7 @@ def show_new_words() -> bool:
     list is empty.
     :return: a boolean value.
     """
-    f = open('text_files/list_of_words.txt', 'r')
+    f = open('list_of_words.txt', 'r')
     data = f.read()
     for _ in data:
         if _.isalpha():
