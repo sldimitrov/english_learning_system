@@ -2,10 +2,12 @@ import sqlite3
 import hashlib
 import string
 import random
-import constants
+from constants.constants import VALID_DOMAINS, valid_answers
 import TextToSpeech
 import Exceptions
 import textOperations
+from constants.messages import menu_options, ending_message, origin_story
+from constants.options import positive_options, negative_options
 
 # TODO: This program does not use python's modularity,
 # everything could be split into pieces for easier maintaince
@@ -21,21 +23,17 @@ def reg_or_log_user():
     # TODO: Use some constants for the answers would make sense, as we use them much
     while True:
         answer = input("\nDo you have an existing account? (y/n): ").lower()
-        if answer == "y" or answer == "yes":
+        if answer in positive_options:
             if login_user():
                 return True
             else:
                 break
 
-        # TODO: outsource and use
-        # negative_choices = ["n", "no"]
-        # if negative_choices.contains(answer):
-
-        elif answer == "n" or answer == "no":
+        elif answer in negative_options:
             # TODO: Add a function for the input and just pass the label
             choice = input("Would you like to create a new account? (y/n): ").lower()
 
-            if choice == "y" or choice == "yes":
+            if choice in positive_options:
                 if register_user():
                     print(f'-You were successfully registered!\n')
                     if login_user():
@@ -44,11 +42,11 @@ def reg_or_log_user():
                     else:
                         break
 
-            elif choice == "n" or choice == "no":
+            elif choice in negative_options:
                 print("\nProgram ends here...")
                 raise SystemExit
 
-        # This logic is hard to hear
+        # This logic is hard to read
         else:
             if answer:
                 print("Unknown answer: " + answer)
@@ -102,7 +100,7 @@ def is_email_valid(email: str) -> bool:
                 raise Exceptions.NameTooShortError("Name must be more than 4 characters!")
 
             # Check if the last part of the domain is not in Valid Domains and if it is not - raise an exception
-            elif domain.split('.')[1] not in constants.VALID_DOMAINS:
+            elif domain.split('.')[1] not in VALID_DOMAINS:
                 raise Exceptions.InvalidDomainError("Domain must be one of the following: .com, .bg, .org, .net!")
 
             # Check if there is more than 1 At symbol - stop the program
@@ -429,10 +427,10 @@ def test_knowledge():
 
             print(f'\nThe definition is: {definition}')
             signal = input('Did you answer correctly? (y/n): ')
-            if signal.lower() == 'y':
+            if signal.lower() in positive_options:
                 points += 1
                 print('+1 point')
-            elif signal.lower() == 'n':
+            elif signal.lower() in negative_options:
                 bad_words.append(line)
 
         # TODO: Introduce a mapper here
@@ -473,7 +471,7 @@ def test_knowledge():
 
     else:   # No words in the dictionary:
         print('There are not any words in your dictionary.')
-        textOperations.menu()
+        print(menu_options)
 
 # This and the other 2 functions below are responsible for the input
 def get_input() -> str:
@@ -500,8 +498,7 @@ def input_validator(message: str):
     :param message: string
     :return: str / bool
     """
-
-    if message not in constants.valid_answers:
+    if message not in valid_answers:
         message = handle_invalid_input(message)
         return message
     return True
@@ -530,7 +527,7 @@ def access_learning():
     """
 
     # Print the menu to the User and ask for input
-    print(textOperations.menu())
+    print(menu_options)
     choice = get_input()
     while True:
         if choice.lower() == 'm':
@@ -559,10 +556,11 @@ def access_learning():
             TextToSpeech.text_to_speech()
 
         elif choice == 6:
-            print(textOperations.show_info())
+            print(origin_story)
 
         elif choice == 7:
-            textOperations.end_the_program()
+            print(ending_message)
+            raise SystemExit
 
         choice = get_input()
 

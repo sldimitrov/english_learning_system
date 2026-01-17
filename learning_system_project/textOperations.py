@@ -14,23 +14,6 @@ def greet_user():
     print("\nLets get into it...")
     time.sleep(0.6)
 
-def show_info():
-    """
-    The function "show_info" returns a message that provides an overview of the program and its purpose.
-    :return: string (info)
-    """
-    return origin_story
-
-
-# Very good idea of using long messages and having a menu
-def menu() -> str:
-    """
-    The `menu` function returns a string containing a user menu with several options.
-    :return: a string that contains the user menu options.
-    """
-    return menu_options
-
-
 def print_messages(func_name: str) -> None:
     """
     This function is being called from many others.
@@ -46,8 +29,3 @@ def print_messages(func_name: str) -> None:
         message = get_password
 
     print(message)
-
-
-def end_the_program():
-    print(ending_message)
-    raise SystemExit
