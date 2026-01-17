@@ -25,7 +25,7 @@ menu_options = 'Please, choose an operation (1/2/3/4/5/6/7):\n'
 '6. Info\n'
 '7. Exit the program'
 
-get_email = f"""
+get_email_text = f"""
 {'<->-<->' * 6}
     Valid email requirements!\n
     (1) It must consist only 1 At symbol '@'!
@@ -38,7 +38,7 @@ get_email = f"""
 {'<->-<->' * 6}
         """
 
-get_password =  f"""
+get_password_text =  f"""
 {'<->-<->' * 6}
     Rules about valid password!\n
     (1) Must be between 4 and 16 symbols!
