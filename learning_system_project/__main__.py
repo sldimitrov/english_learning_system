@@ -7,8 +7,6 @@ import TextToSpeech
 import Exceptions
 import textOperations
 
-# Great example for custom Exceptions!
-
 # TODO: This program does not use python's modularity,
 # everything could be split into pieces for easier maintaince
 # Each class and method is well documented!
