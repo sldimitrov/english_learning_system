@@ -1,96 +1,26 @@
 import sqlite3
-import pyttsx3
 import hashlib
 import string
 import random
-import time
+import constants
+import TextToSpeech
+import Exceptions
+import textOperations
 
+# Great example for custom Exceptions!
 
-# TODO: (2)
-VALID_DOMAINS = ('com', 'bg', 'org', 'net')
+# TODO: This program does not use python's modularity,
+# everything could be split into pieces for easier maintaince
+# Each class and method is well documented!
 
+# TODO: There should be a dictionary containing all labels,
+# This will help with adding language support in the future.
 
-class NameTooShortError(Exception):
-    pass
-
-
-class DomainWithoutDotError(Exception):
-    pass
-
-
-class InvalidDomainError(Exception):
-    pass
-
-
-class MoreThanOneAtSymbolError(Exception):
-    pass
-
-
-class DomainMustContainsDot(Exception):
-    pass
-
-
-class EmailHasBeenAlreadyUsedError(Exception):
-    pass
-
-
-class EmailDoesNotContainsAtSymbolError(Exception):
-    pass
-
-
-class TextToSpeech:
-    """
-    The functionality that this class applies to the project is that it, open the dictionary
-    file and read every sentence from it. The idea behind this is to train listening and
-    to hear the new words more often.
-    """
-    engine: pyttsx3.Engine
-
-    def __init__(self, voice, rate: int, volume: float):
-        """
-        The function initializes a text-to-speech engine with specified voice, rate, and volume properties.
-
-        :param voice: The "voice" parameter is used to specify the voice that the text-to-speech engine should use.
-        It can be a string representing the name of the voice, or it can be set to None to use the default voice.
-        :param rate: The "rate" parameter determines the speed at which the text is spoken. It is measured in words per
-        minute (wpm). A higher rate value will result in faster speech, while a lower rate value will result in slower
-        speech.
-        :type rate: int
-        :param volume: The "volume" parameter is used to control the volume of the voice output.
-        It is a float value between 0.0 and 1.0, where 0.0 represents the lowest volume (mute)
-        and 1.0 represents the highest volume
-        :type volume: float
-        """
-        self.engine = pyttsx3.init()
-        if voice:
-            self.engine.setProperty('voice', voice)
-        self.engine.setProperty('rate', rate)
-        self.engine.setProperty('volume', volume)
-
-    def list_available_voices(self):
-        """
-        The function "list_available_voices" prints the name, age, and ID of each available voice.
-        It is written in case you want to change the speaker. If you want to you should call the function once
-        and then copy the ID of the person you'd like to speak.
-        """
-        voices: list = [self.engine.getProperty('voices')]
-
-        for i, voice in enumerate(voices[0]):
-            print(f'{i + 1} Name : {voice.name},  Age : {voice.age}, ID : [{voice.id}]')
-
-    def text_to_speech(self, text: str, save: bool = False, file_name='output.mp3'):
-        self.engine.say(text)
-
-        if save:
-            self.engine.save_to_file(text, file_name)
-
-        self.engine.runAndWait()
-        return True
-
+# TODO: Tests should be added, "System that does not contain tests is broken by design".
 
 # Define plenty of functions
 def reg_or_log_user():
-
+    # TODO: Use some constants for the answers would make sense, as we use them much
     while True:
         answer = input("\nDo you have an existing account? (y/n): ").lower()
         if answer == "y" or answer == "yes":
@@ -99,7 +29,12 @@ def reg_or_log_user():
             else:
                 break
 
+        # TODO: outsource and use
+        # negative_choices = ["n", "no"]
+        # if negative_choices.contains(answer):
+
         elif answer == "n" or answer == "no":
+            # TODO: Add a function for the input and just pass the label
             choice = input("Would you like to create a new account? (y/n): ").lower()
 
             if choice == "y" or choice == "yes":
@@ -115,6 +50,7 @@ def reg_or_log_user():
                 print("\nProgram ends here...")
                 raise SystemExit
 
+        # This logic is hard to hear
         else:
             if answer:
                 print("Unknown answer: " + answer)
@@ -123,47 +59,6 @@ def reg_or_log_user():
             continue
 
     return False
-
-
-def print_messages(func_name: str) -> None:
-    """
-    This function is being called from many others.
-    Its purpose is to different print messages to the User,
-    depending on the function which have called it.
-    """
-    message = ""
-
-    # Print a message about Valid Email Requirements
-    if func_name == "get_email":
-        message = (
-            f"""
-    {'<->-<->' * 6}
-        Valid email requirements!\n
-        (1) It must consist only 1 At symbol '@'!
-        (2) The length of its first part should
-        be more than 4 characters!
-        (3) The domain must be one of the following: 
-            {', '.join(VALID_DOMAINS)}!
-                   !!!Warning!!!
-         THERE ARE 3 REQUIREMENTS ABOUT THE PASSWORD
-    {'<->-<->' * 6}
-            """
-        )
-
-    elif func_name == "get_password":
-        message = (
-            f"""
-        {'<->-<->' * 6}
-            Rules about valid password!\n
-            (1) Must be between 4 and 16 symbols!
-            (2) At least two digits ought to be used!
-            (3) One special character have to be used!
-            (4) One capital letter as well!
-        {'<->-<->' * 6}
-            """
-        )
-
-    print(message)
 
 
 def get_email():
@@ -176,13 +71,14 @@ def get_email():
     """
 
     while True:
-        print_messages(get_email.__name__)
+        textOperations.print_messages(get_email.__name__)
         user_email = input("Enter an email address, please: ")
         is_valid_email = is_email_valid(user_email)
         if is_valid_email:
             return user_email
 
 
+# TODO: Outsource in validation file
 def is_email_valid(email: str) -> bool:
     """
     This function is being called by the (get_email) one
@@ -195,40 +91,40 @@ def is_email_valid(email: str) -> bool:
         try:
             # If there is not an At symbol - prints out a message
             if '@' not in email:
-                raise EmailDoesNotContainsAtSymbolError("Email must contain at least one '@' symbol!")
+                raise Exceptions.EmailDoesNotContainsAtSymbolError("Email must contain at least one '@' symbol!")
 
             # Split the email into 2 parts
             name, domain = email.split('@')
 
             if '.' not in domain:
-                raise DomainMustContainsDot("Domain must contain a dot! '.com'")
+                raise Exceptions.DomainMustContainsDot("Domain must contain a dot! '.com'")
 
             # Check if the length of the first part is shorter or equal to 4 and if it is - throw an exception
             if len(name) <= 4:
-                raise NameTooShortError("Name must be more than 4 characters!")
+                raise Exceptions.NameTooShortError("Name must be more than 4 characters!")
 
             # Check if the last part of the domain is not in Valid Domains and if it is not - raise an exception
-            elif domain.split('.')[1] not in VALID_DOMAINS:
-                raise InvalidDomainError("Domain must be one of the following: .com, .bg, .org, .net!")
+            elif domain.split('.')[1] not in constants.VALID_DOMAINS:
+                raise Exceptions.InvalidDomainError("Domain must be one of the following: .com, .bg, .org, .net!")
 
             # Check if there is more than 1 At symbol - stop the program
             elif email.count('@') > 1:
-                raise MoreThanOneAtSymbolError("Email must contain only one At symbol!")
+                raise Exceptions.MoreThanOneAtSymbolError("Email must contain only one At symbol!")
 
             # Check if there is a match with the emails in the database and throw an exception
             elif is_email_used(email):
-                raise EmailHasBeenAlreadyUsedError("Email address has been already used by another User!")
-        except DomainWithoutDotError as dmcd:
+                raise Exceptions.EmailHasBeenAlreadyUsedError("Email address has been already used by another User!")
+        except Exceptions.DomainWithoutDotError as dmcd:
             print(dmcd)
-        except NameTooShortError as ntse:
+        except Exceptions.NameTooShortError as ntse:
             print(ntse)
-        except InvalidDomainError as ide:
+        except Exceptions.InvalidDomainError as ide:
             print(ide)
-        except MoreThanOneAtSymbolError as mtoa:
+        except Exceptions.MoreThanOneAtSymbolError as mtoa:
             print(mtoa)
-        except EmailHasBeenAlreadyUsedError as ehbu:
+        except Exceptions.EmailHasBeenAlreadyUsedError as ehbu:
             print(ehbu)
-        except EmailDoesNotContainsAtSymbolError as edca:
+        except Exceptions.EmailDoesNotContainsAtSymbolError as edca:
             print(edca)
         else:
             is_valid_email = True
@@ -264,7 +160,7 @@ def get_password():
     """
     while True:
         # Read User password
-        print_messages(get_password.__name__)
+        textOperations.print_messages(get_password.__name__)
 
         while 1:
             user_password = input("Create a password: ")
@@ -387,33 +283,7 @@ def login_user() -> bool:
         return False
 
 
-def text_to_speech():
-    """
-    The function `text_to_speech` reads sentences from a file, and if there are any sentences, it converts them to
-    speech using the specified voice and settings. If there are no sentences in the file, it prints a message
-    indicating that there are no sentences.
-    """
-    tts = TextToSpeech('HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Speech\\Voices\\Tokens\\TTS_MS_EN-US_DAVID_11.0',
-                       200, 1.0)
-    # tts.list_available_voices()
-    f = open('text_files/sentences_list.txt', 'r')
-    data = f.read()
-    if data:
-        counter = 1
-        data = data.split('\n')
-        data = [x for x in data if x != '']
-        print('Listen...')
-        for sentence in data:
-            if sentence:
-                tts.text_to_speech(sentence)
-                print(f'({counter}/{len(data)})')
-                time.sleep(3)
-                counter += 1
-        print('These were all of your sentences!')
-    else:
-        print('There are not any sentences written yet.')
-
-
+# Good use of python annotations
 def write_sentences() -> bool:
     """
     The function `write_sentences` reads words and their definitions from a text file,
@@ -433,6 +303,7 @@ def write_sentences() -> bool:
 
     words_dictionary = {}
     sentences = []
+
     if lines:
         for line in lines:
             if line:  # if it's not a blank line
@@ -461,6 +332,7 @@ def write_sentences() -> bool:
     else:
         print('There are not any new words in order to write sentences with them.')
 
+    # Very clear separation of logic blocs
     # Save the sentences into a text file
     file = open('text_files/sentences_list.txt', 'a')
     file.write('\n')
@@ -515,6 +387,7 @@ def show_new_words() -> bool:
         return True
 
 
+# Build a game with text transform skills, awesome!
 def test_knowledge():
     """
     The function `test_knowledge()` allows the user to play a game where they are given a word, and they have to provide
@@ -564,6 +437,7 @@ def test_knowledge():
             elif signal.lower() == 'n':
                 bad_words.append(line)
 
+        # TODO: Introduce a mapper here
         if answer == 's':
             if points <= 3:
                 print('\nYou still have much to learn, buddy!\n'
@@ -578,6 +452,7 @@ def test_knowledge():
                 print('\nExcellent!\n'
                       f'Points: {points}/10')
 
+        # Replace with a mapper
         elif answer == 'l':
             if points <= 6:
                 print('\nYou still have much to learn, buddy!\n'    
@@ -600,49 +475,7 @@ def test_knowledge():
 
     else:   # No words in the dictionary:
         print('There are not any words in your dictionary.')
-        menu()
-
-
-def show_info():
-    """
-    The function "show_info" returns a message that provides an overview of the program and its purpose.
-    :return: string (info)
-    """
-    message = """
-               The idea about this program came up into my mind at the end of 2023. I used my own hands and everything
-              I have learned since my programming journey had started to make my dream come true. The mission is to help
-              others as they develop their skills of learning. In SoftUni they do exactly that - they teach you how to
-              study. My program will help each one of you to rememberer new words and conquer a world full of wonders!
-                   How to use it?
-                First of all, you want to save all of your new words in the <list_of_words.txt>,every one on a single
-              line with dash and its definition - (apple - red fruit) and so on...
-                After the first step is done you will re-run the program and you can start writing sentences with (2)
-              from the menu options.   In no time you'll have learned many new words and each one of them is going to be
-              stored in your imaginary dictionary (3)   Within the forth operation (4) you are not only going to learn. 
-              You're going to be challenged! Choose it and go and face your demons or stay the same forever!
-                Last but not least, the (5) is the latest function of the program in which you can hear all of your 
-              sentences read by the computer with human voice. Yeah, I know it sound strange but today everything 
-              is possible!   If information is all you have needed at this point choose (7) to exit the temple.
-              I will be waiting for your return, because I hope that your learning will be an endless process!
-              """
-    return message
-
-
-def menu() -> str:
-    """
-    The `menu` function returns a string containing a user menu with several options.
-    :return: a string that contains the user menu options.
-    """
-    menu_message = ('Please, choose an operation (1/2/3/4/5/6/7):\n'
-                    '1. See the new words\n'
-                    '2. Write down some sentences\n'
-                    '3. Open the dictionary\n'
-                    '4. Test your knowledge\n'
-                    '5. Listen to the written sentences\n'
-                    '6. Info\n'
-                    '7. Exit the program')
-    return menu_message
-
+        textOperations.menu()
 
 # This and the other 2 functions below are responsible for the input
 def get_input() -> str:
@@ -660,6 +493,7 @@ def get_input() -> str:
             return choice
 
 
+
 # Define a function
 def input_validator(message: str):
     """
@@ -668,8 +502,8 @@ def input_validator(message: str):
     :param message: string
     :return: str / bool
     """
-    valid_answers = [1, 2, 3, 4, 5, 6, 7]
-    if message not in valid_answers:
+
+    if message not in constants.valid_answers:
         message = handle_invalid_input(message)
         return message
     return True
@@ -685,31 +519,7 @@ def handle_invalid_input(some_input: str):
     return f'Error: {some_input} is an invalid input\n'
 
 
-def greet_user():
-    print("Hello, Dear User!")
-    time.sleep(0.8)
-    print("Welcome to my application!")
-    time.sleep(1.6)
-    print("\nLearning foreign languages can give you the wings to conquer the world.")
-    print("Are you ready to sink in a world fulfilled with many wonders and knowledge? ")
-    time.sleep(5)
-    print("\nLets get into it...")
-    time.sleep(0.6)
-
-
-def end_the_program():
-    # Greetings for an end
-    print('\n  Thank yourself for the time you spent learning!\n'
-          'I am so happy that you have just used my program!\n'
-          'If you had seen any bugs or if you have any ideas\n'
-          'how I should improve my learning system, send me\n'
-          'an email me here:\n'
-          ' -slavidimitrov54@gmail.com\n'
-          '                    Best wishes,\n'
-          '                    SD')
-    raise SystemExit
-
-
+# Handling such cases makes all the difference
 def authentication_failure():
     print("Authentication failed!")
     raise SystemExit
@@ -722,7 +532,7 @@ def access_learning():
     """
 
     # Print the menu to the User and ask for input
-    print(menu())
+    print(textOperations.menu())
     choice = get_input()
     while True:
         if choice.lower() == 'm':
@@ -734,6 +544,7 @@ def access_learning():
 
         choice = int(choice)
 
+        # TODO: Replace with a mapper
         if choice == 1:
             show_new_words()
 
@@ -747,13 +558,13 @@ def access_learning():
             test_knowledge()
 
         elif choice == 5:
-            text_to_speech()
+            TextToSpeech.text_to_speech()
 
         elif choice == 6:
-            print(show_info())
+            print(textOperations.show_info())
 
         elif choice == 7:
-            end_the_program()
+            textOperations.end_the_program()
 
         choice = get_input()
 
@@ -771,7 +582,7 @@ def main():
     Authentication:
         (1) add more extensions for the email
     """
-    greet_user()
+    textOperations.greet_user()
 
     # Register and or login the user
     if reg_or_log_user():
