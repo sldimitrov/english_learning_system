@@ -82,3 +82,7 @@ definer = NewWordsDefiner()
 
 # Access a method to define all new words
 definer.define_new_words()
+
+# Initialise an instance of the class
+writer = WriteSentences()
+writer.write_sentence()
